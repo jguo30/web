@@ -1,0 +1,29 @@
+body {
+background-color: purple; 
+color: white;
+border: 4mm solid black;}
+
+p {
+	background-color: black;
+	font-size: 15px;
+	font-family: "Comic Sans MS",sans-serif;
+	font-style: oblique;}
+	
+li {
+	color: #6666FF;
+	font-family: "Comic Sans MS",sans-serif;
+}
+
+h1 {
+	color: #8080FF;
+font-family: "Comic Sans MS",sans-serif;
+font-size: 30px;
+font-weight: 900;
+font-style: oblique;}
+
+h2 {
+	color: #CCCCFF;
+	font-size: 20px;
+font-family: "Comic Sans MS",sans-serif;
+font-weight: bolder;
+font-style: oblique;}
