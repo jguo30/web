@@ -1,0 +1,26 @@
+body {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5a/Planet_nine_artistic_plain.png');
+	}
+
+a {color: #50C878;}
+
+li {
+	display: block;
+	border: 6px ridge #50C878;
+	border-radius: 5px;
+	margin: 0px;
+	padding: .5em;
+	font-family: "Comic Sans MS", sans-serif;
+	color: #50C878;
+	width: 175px;}
+	
+h1 {
+	color: #32b329;
+	margin-left: 5px;}
+
+p {
+	display: block;
+	color: white;
+	margin-left: 5px;
+	border: 3px solid black;
+	max-width: 672px;}
