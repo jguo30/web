@@ -1,26 +1,44 @@
 body {
 	background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5a/Planet_nine_artistic_plain.png');
+	margin: 0px;
+	display: inline;
 	}
 
-a {color: #50C878;}
+a {
+	color: #50C878;
+	font: cursive;
+	font-family: "Comic Sans MS",sans-serif;
+	text-decoration: none;
+	}
+
 
 li {
-	display: block;
-	border: 6px ridge #50C878;
-	border-radius: 5px;
-	margin: 0px;
+	display: inline;
 	padding: .5em;
-	font-family: "Comic Sans MS", sans-serif;
+	font-family: "Comic Sans MS",sans-serif;
 	color: #50C878;
-	width: 175px;}
+	width: 175px;
+	background: black;
+	}
+	
+li:hover {
+	background-color: gray;
+	}
+
+ul { 
+	background: black; 
+	padding: .5em;
+	margin-top: 0;}
 	
 h1 {
 	color: #32b329;
-	margin-left: 5px;}
+	margin-left: 5px;
+	font-family: "Comic Sans MS",sans-serif;}
 
 p {
 	display: block;
 	color: white;
 	margin-left: 5px;
 	border: 3px solid black;
-	max-width: 672px;}
+	max-width: 672px;
+	font-family: "Comic Sans MS",sans-serif;}
