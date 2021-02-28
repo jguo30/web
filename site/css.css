@@ -24,7 +24,8 @@ a {
 	background-color: gray;
 	}
 
-.menu ul { 
+.menu ul {
+	display: inline;
 	background: black; 
 	margin-top: 0px;
 	padding-inline-start: 0px;
