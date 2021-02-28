@@ -11,8 +11,7 @@ a {
 	text-decoration: none;
 	}
 
-
-li {
+.menu li {
 	display: inline;
 	padding: .5em;
 	font-family: "Comic Sans MS",sans-serif;
@@ -21,25 +20,32 @@ li {
 	background: black;
 	}
 	
-li:hover {
+.menu li:hover {
 	background-color: gray;
 	}
 
-ul { 
+.menu ul { 
 	background: black; 
 	margin-top: 0px;
 	padding-inline-start: 0px;
 	padding-bottom: .5em;
-	padding-top: .5em;}
-	
+	padding-top: .5em;
+	}
+
+.menus {
+	color: gray;
+	}
+
 h1 {
 	color: #32b329;
 	margin-left: 5px;
-	font-family: "Comic Sans MS",sans-serif;}
+	font-family: "Comic Sans MS",sans-serif;
+	}
 
 p {
 	display: block;
 	color: white;
 	margin-left: 5px;
 	max-width: 672px;
-	font-family: "Comic Sans MS",sans-serif;}
+	font-family: "Comic Sans MS",sans-serif;
+	}
