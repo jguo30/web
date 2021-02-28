@@ -11,7 +11,7 @@ a {
 	text-decoration: none;
 	}
 
-.menu li {
+li {
 	display: inline;
 	padding: .5em;
 	font-family: "Comic Sans MS",sans-serif;
@@ -20,11 +20,11 @@ a {
 	background: black;
 	}
 	
-.menu li:hover {
+li:hover {
 	background-color: gray;
 	}
 
-.menus ul {
+ul {
 	background: black; 
 	margin-top: 0px;
 	padding-inline-start: 0px;
