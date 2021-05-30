@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang"=en">
+
+<head>
+<title>Main Page: Sleep</title>
+<link href="css.css" rel="stylesheet">
+</head>
+
+<nav>
+<ul> 
+	<li><a href="file:///C:/Users/guoja/OneDrive/Documents/GitHub/web/site/how-to-sleep.html">How To Sleep</a></li> 
+	<li><a href="file:///C:/Users/guoja/OneDrive/Documents/GitHub/web/site/why-sleep.html">Why Sleep</a></li> 
+	<li><a href="file:///C:/Users/guoja/OneDrive/Documents/GitHub/web/site/when-to-sleep.html">When to Sleep</a></li> 
+	<li><a class="menus" href="project-main.html">Return to Main Page</a></li> 
+</ul>
+</nav>
+
+<h1>What is Our Project About?</h1>
+<p>Our group is planning to make a single-player Wheel of Fortune game. We wanted to make it because it utilizes our knowledge of everything we have learned this semester like strings and dictionaries. 
+Since our game is single player, it will be slightly modified to accommodate it. (don’t know about the first round) 
+In the final round, you will spin the wheel, the letters r, s, t, l, n, e will all be filled in and you will have a time limit. 
+Then, you have to choose three other consonants and one more vowel to try to fill out the puzzle the best you can. 
+Next, you have to guess the correct word within the time limit. 
+If you guess it correctly, then you will be awarded with the points you got from the wheel, if not, you don’t get any points.
+</p>
+
+</html>
