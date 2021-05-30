@@ -3,20 +3,19 @@
 <html lang"=en">
 
 <head>
-<title>Main Page: Sleep</title>
-<link href="css.css" rel="stylesheet">
+<title>Project View</title>
+<link href="css.css" rel="proj-style">
 </head>
 
 <nav>
 <ul> 
 	<li><a href="project-results.html">Results</a></li> 
-	<li><a href="file:///C:/Users/guoja/OneDrive/Documents/GitHub/web/site/why-sleep.html">Why Sleep</a></li> 
-	<li><a href="file:///C:/Users/guoja/OneDrive/Documents/GitHub/web/site/when-to-sleep.html">When to Sleep</a></li> 
 	<li><a class="menus" href="project-main.html">Return to Main Page</a></li> 
 </ul>
 </nav>
 
 <h1>What Does Our Project Look Like?</h1>
-<p> </p>
+<p>
+</p>
 
 </html>
