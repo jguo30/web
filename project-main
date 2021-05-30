@@ -3,13 +3,13 @@
 <html lang"=en">
 
 <head>
-<title>Main Page: Sleep</title>
-<link href="css.css" rel="stylesheet">
+<title>Wheel of Guesses</title>
+<link href="css.css" rel="proj-style">
 </head>
 
 <nav>
 <ul> 
-	<li><a href="project-results.html">Project Results</a></li>
+	<li><a href="project-results.html">Project Results</a></li> 
 	<li><a class="menus" href="project-main.html">Return to Main Page</a></li> 
 </ul>
 </nav>
