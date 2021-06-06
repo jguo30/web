@@ -4,23 +4,86 @@
 
 <head>
 <title>Wheel of Guesses</title>
-<link href="css.css" rel="proj-style">
+<link href="proj-style.css" rel="stylesheet">
 </head>
 
 <nav>
 <ul> 
-	<li><a href="project-results.html">Project Results</a></li> 
-	<li><a class="menus" href="project-main.html">Return to Main Page</a></li> 
+	<li><a href="project-results.html">
+	<span>P</span>
+	<span>R</span>
+	<span>O</span>
+	<span>J</span>
+	<span>E</span>
+	<span>C</span>
+	<span>T</span>
+	 <span-space></span-space>
+	<span>R</span>
+	<span>E</span>
+	<span>S</span>
+	<span>U</span>
+	<span>L</span>
+	<span>T</span>
+	<span>S</span>
+	  <span-space-weird></span-space-weird> 
+	 <span-space-weird ></span-space-weird> 
+	 <span-space-weird ></span-space-weird> 
+	 <span-space-weird ></span-space-weird> 
+	 
+	</a></li> 
+	
+	<li><a href="project-play.html">
+	<span>H</span>
+	<span>O</span>
+	<span>W</span>
+	<span-space></span-space>
+	<span>T</span>
+	<span>O</span>
+	<span-space></span-space>
+	<span>P</span>
+	<span>L</span>
+	<span>A</span>
+	<span>Y</span>
+	<span-space-weirdr2></span-space-weirdr2> 
+	<span-space-weird></span-space-weird> 
+	<span-space-weird></span-space-weird>
+	<span-space-weird></span-space-weird>	
+	<span-space></span-space> 
+	 <span-space></span-space> <span-space></span-space>  <span-space-weird></span-space-weird> 
+	</a></li>
+	
+	<li><a class="menus" href="project-main.html">
+	<span>R</span>
+	<span>E</span>
+	<span>T</span>
+	<span>U</span>
+	<span>R</span>
+	<span>N</span>
+	 <span-space></span-space> 
+	<span>T</span>
+	<span>O</span>
+	 <span-space></span-space> 
+	<span>M</span>
+	<span>A</span>
+	<span>I</span>
+	<span>N</span>
+	 <span-space></span-space> 
+	<span>P</span>
+	<span>A</span>
+	<span>G</span>
+	<span>E</span>
+	</a></li> 
 </ul>
 </nav>
 
-<h1>What is Our Project About?</h1>
+<h1>What Is Our Project About?</h1>
 <p>Our group is planning to make a single-player Wheel of Fortune game. We wanted to make it because it utilizes our knowledge of everything we have learned this semester like strings and dictionaries. 
-Since our game is single player, it will be slightly modified to accommodate it. (don’t know about the first round) 
+Since our game is single player, it will be slightly modified to accommodate it. 
 In the final round, you will spin the wheel, the letters r, s, t, l, n, e will all be filled in and you will have a time limit. 
 Then, you have to choose three other consonants and one more vowel to try to fill out the puzzle the best you can. 
 Next, you have to guess the correct word within the time limit. 
 If you guess it correctly, then you will be awarded with the points you got from the wheel, if not, you don’t get any points.
+
 </p>
 
 </html>
