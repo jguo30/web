@@ -9,27 +9,27 @@
 
 <nav>
 <ul> 
-	<li><a href="project-results.html" class="menus">
-	<span>P</span>
-	<span>R</span>
-	<span>O</span>
-	<span>J</span>
+	<li>
+	<span>W</span>
+	<span>H</span>
 	<span>E</span>
-	<span>C</span>
-	<span>T</span>
-	 <span-space></span-space>
-	<span>R</span>
 	<span>E</span>
-	<span>S</span>
-	<span>U</span>
 	<span>L</span>
+	<span-space></span-space>
+	<span>O</span>
+	<span>F</span>
+	<span-space></span-space>
+	<span>F</span>
+	<span>O</span>
+	<span>R</span>
 	<span>T</span>
-	<span>S</span>
-	  <span-space-weird></span-space-weird> 
-	 <span-space-weird ></span-space-weird > 
-	 <span-space-weird ></span-space-weird > 
-	 <span-space-weird></span-space-weird> 
-	</a></li>
+	<span>U</span>
+	<span>N</span>
+	<span>E</span>
+	<span-space-weirdr2></span-space-weirdr2>
+	<span-space-weird></span-space-weird>
+	<span-space-weird></span-space-weird>
+	</li>
 	
 	<li><a href="project-play.html">
 	<span>H</span>
@@ -51,32 +51,87 @@
 	 <span-space></span-space> <span-space></span-space>  <span-space-weird></span-space-weird> 
 	</a></li>
 	
-	<li><a href="final.html">
+	<li><a href="project-results.html">
+	<span>H</span>
+	<span>O</span>
+	<span>W</span>
+	 <span-space></span-space>
+	<span>I</span>
+	<span>T</span>
+	 <span-space></span-space>
+	<span>W</span>
+	<span>O</span>
+	<span>R</span>
+	<span>K</span>
+	<span>S</span>
+	 <span-space-weirdr2></span-space-weirdr2> 
+	 <span-space-weird></span-space-weird>
+		 <span-space-weird></span-space-weird> 
+	  <span-space-weird></span-space-weird> 
+	 <span-space-weird ></span-space-weird> 
+	 <span-space-weird ></span-space-weird> 
+	 <span-space-weird ></span-space-weird> 
+	 
+	</a></li> 
+	
+	<li><a class="menus" href="final.html">
 	<span>R</span>
 	<span>E</span>
 	<span>T</span>
 	<span>U</span>
 	<span>R</span>
 	<span>N</span>
-	<span-space></span-space>
+	 <span-space></span-space> 
 	<span>T</span>
 	<span>O</span>
-	<span-space></span-space>
+	 <span-space></span-space> 
 	<span>M</span>
 	<span>A</span>
 	<span>I</span>
 	<span>N</span>
-	<span-space></span-space>
+	 <span-space></span-space> 
 	<span>P</span>
 	<span>A</span>
 	<span>G</span>
 	<span>E</span>
-	</a></li>
+	</a></li> 
 </ul>
 </nav>
 
-<h1>What Does Our Project Look Like?</h1>
-<p>
+<h1>How does it work?</h1>
+<p>It starts out with a simple print statement. Then we access a .txt file that contains all of the puzzles and their respective categories. 
+        To get the various puzzles used for our game, we found a website with wheel of fortune words and put it into a .txt file. 
+        We organized the file into a dictionary where the categories are the keys and the words are the values. 
+        We randomly select a category using the random function, then select a word from the category. 
+        It's the same process for both regular rounds and the bonus round. 
+        The word is then turned into question marks by multiplying the question mark by the length of the word. 
+        We use the input function to ask and recieve the answers. 
+        The input function then gets run through the check function to see if the letter/word is there. 
+        The check function returns boolean values that determines what text is printed and how the points are altered. 
+        If it returns true, you get a random number of points by using the wheel function, otherwise, it deducts points. 
+        The points are saved between rounds by being added to a list, then it gets called on later. 
+        For the bonus round, the check function checks r, s, t, l, n, and e and returns the result. 
+        You get asked to input three consonants and a vowel and those also get checked. 
+        If you get the bonus round right, it calls on the turtle function and also .bgpic. 
+        .bg pic generates the wheel picture in the turtle screen while the turtle moves forward a random number. 
+        Lastly, the random function picks a number from a list of 24 values and that number is the amount of points you get.
+        
+        
 </p>
 
+        <h1>Files</h1>
+        <p>wheeloffotune.txt is where we draw our puzzles from. 
+		FINAL-WHEEL.gif is the background picture for the turtle screen (the wheel). 
+		final.html is the main page for the website. 
+		project-play.html is where we explain the instructions for the game. 
+		project-results.html is this page.
+        </p>
+        
+        <h1>Resources</h1>
+	<p>Puzzles: <a href="https://buyavowel.boards.net/page/compendium"></a> (season 38, first 750 words)
+
+        </p>
+	
+	<h1>Bugs</h1>
+	<p>None. (Hopefully)</p>
 </html>
